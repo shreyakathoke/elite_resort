@@ -1,0 +1,68 @@
+/* Background like screenshot */
+.svc-section {
+  background: #eef1ec; /* soft green-gray */
+}
+
+/* Card */
+.svc-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 34px 26px 28px;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.08);
+  transition: transform 180ms ease, box-shadow 180ms ease;
+}
+
+.svc-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+}
+
+/* Icon circle */
+.svc-iconWrap {
+  display: grid;
+  place-items: center;
+  margin-bottom: 18px;
+}
+
+.svc-iconCircle {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: #e4f0f0; /* light teal circle */
+}
+
+.svc-iconCircle i {
+  font-size: 30px;
+  color: #0b7c80; /* teal icon */
+}
+
+/* Title + text */
+.svc-title {
+  margin: 0 0 10px;
+  font-size: 22px;
+  font-weight: 700;
+  color: #141414;
+}
+
+.svc-desc {
+  margin: 0 auto;
+  max-width: 260px;
+  color: rgba(0, 0, 0, 0.60);
+  font-size: 14.5px;
+  line-height: 1.75;
+}
+
+/* Responsive spacing */
+@media (max-width: 575.98px) {
+  .svc-card {
+    padding: 28px 18px 22px;
+  }
+  .svc-iconCircle {
+    width: 66px;
+    height: 66px;
+  }
+}

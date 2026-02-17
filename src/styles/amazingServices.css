@@ -1,0 +1,94 @@
+.as-section {
+  background: #ffffff;
+}
+
+/* small copper line at top-left like screenshot */
+.as-kicker {
+  width: 80px;
+  height: 2px;
+  background: #c58b73;
+  margin-bottom: 18px;
+  opacity: 0.9;
+}
+
+.as-title {
+  font-size: clamp(34px, 4vw, 54px);
+  font-weight: 300;
+  letter-spacing: 0.4px;
+  color: #2f2f2f;
+  margin: 0 0 18px;
+}
+
+.as-text {
+  color: rgba(0, 0, 0, 0.55);
+  font-size: 13.5px;
+  line-height: 2;
+  max-width: 520px;
+  margin: 0 0 26px;
+}
+
+/* button like screenshot */
+.as-btn {
+  background: #c58b73;
+  border: 0;
+  color: #fff;
+  padding: 12px 34px;
+  font-size: 14px;
+  border-radius: 0;
+  transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
+  box-shadow: 0 12px 25px rgba(197, 139, 115, 0.25);
+}
+
+.as-btn:hover {
+  background: #b97d66;
+  transform: translateY(-2px);
+  box-shadow: 0 16px 35px rgba(197, 139, 115, 0.35);
+}
+
+/* ===== Right cards ===== */
+.as-card {
+  background: #343434;
+  border: 2px solid rgba(197, 139, 115, 0.9);
+  height: 150px;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  transition: transform 200ms ease, background 200ms ease, box-shadow 200ms ease;
+}
+
+.as-card:hover {
+  transform: translateY(-5px);
+  background: #2f2f2f;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.22);
+}
+
+.as-icon i {
+  font-size: 52px;
+  color: #c58b73; /* copper */
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+/* label inside card */
+.as-cardTitle {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+/* spacing + responsive */
+@media (max-width: 991.98px) {
+  .as-text {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .as-card {
+    height: 140px;
+  }
+  .as-icon i {
+    font-size: 46px;
+  }
+}
