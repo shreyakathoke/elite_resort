@@ -5,7 +5,7 @@ const ScrollToTop = () => {
   const { pathname } = useLocation();
 
   useEffect(() => {
-    // Har baar jab pathname (URL) change hoga, page top par scroll ho jayega
+    // Har baar jab pathname (URL)
     window.scrollTo(0, 0);
   }, [pathname]);
 

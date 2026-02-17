@@ -5,8 +5,8 @@ import "../../styles/rooms.css";
 
 import room1 from "../../assets/room1.jpg";
 import room2 from "../../assets/g6.jpg";
-import room3 from "../../assets/g8.jpg"; // ✅ fixed extension
-import room4 from "../../assets/g3.jpg";
+import secondroom from "../../assets/g8.jpg"; // ✅ fixed extension
+import thirdroom from "../../assets/g3.jpg";
 import room5 from "../../assets/g4.jpg";
 import room6 from "../../assets/g6.jpg";
 
@@ -29,14 +29,14 @@ const rooms = [
     id: 3,
     title: "Single Room",
     desc: "Comfortable single stay with stylish décor and cozy atmosphere.",
-    img: room3,
+    img: secondroom,
     theme: "glass",
   },
   {
     id: 4,
     title: "Executive Suite",
     desc: "Premium executive suite featuring lounge space and luxury bath.",
-    img: room4,
+    img: thirdroom,
     theme: "dark",
   },
   {

@@ -6,7 +6,7 @@ import "../../styles/ourHotelSection.css";
 
 import figure1 from "../../assets/figure1.jpg";
 import figure2 from "../../assets/figure2.jpg";
-import g4 from "../../assets/g4.jpg";
+import g5 from "../../assets/g4.jpg";
 
 const COL1 = [
   "Luxury rooms with premium interiors",
@@ -111,7 +111,7 @@ export default function OurHotelSection() {
           </div>
 
           <div className="col-12 col-md-4">
-            <ImgCard src={g4} alt="Elite Resort bar" delay={350} />
+            <ImgCard src={g5} alt="Elite Resort bar" delay={350} />
           </div>
         </div>
       </div>

@@ -29,7 +29,6 @@ export default function UserProfilePage() {
       return;
     }
 
-    // optional: size limit (2MB)
     const max = 2 * 1024 * 1024;
     if (selectedFile.size > max) {
       alert("Image size must be under 2MB.");
