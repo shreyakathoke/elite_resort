@@ -4,9 +4,16 @@ import "aos/dist/aos.css";
 import "../../styles/rooms.css";
 
 import room1 from "../../assets/room1.jpg";
+<<<<<<< HEAD
 import room2 from "../../assets/g6.jpg";
 import secondroom from "../../assets/g8.jpg"; // ✅ fixed extension
 import thirdroom from "../../assets/g3.jpg";
+=======
+import room2 from "../../assets/room2.jpg";
+import room3 from "../../assets/room3.jpg";
+
+import room4 from "../../assets/g3.jpg";
+>>>>>>> 36737131500f0259807a8de4f5f258d39c61b061
 import room5 from "../../assets/g4.jpg";
 import room6 from "../../assets/g6.jpg";
 
@@ -29,14 +36,22 @@ const rooms = [
     id: 3,
     title: "Single Room",
     desc: "Comfortable single stay with stylish décor and cozy atmosphere.",
+<<<<<<< HEAD
     img: secondroom,
+=======
+    img: room3,
+>>>>>>> 36737131500f0259807a8de4f5f258d39c61b061
     theme: "glass",
   },
   {
     id: 4,
     title: "Executive Suite",
     desc: "Premium executive suite featuring lounge space and luxury bath.",
+<<<<<<< HEAD
     img: thirdroom,
+=======
+    img: room4,
+>>>>>>> 36737131500f0259807a8de4f5f258d39c61b061
     theme: "dark",
   },
   {
@@ -67,6 +82,7 @@ export default function RoomsSection() {
   return (
     <section className="rooms-sec">
       <div className="container py-5">
+<<<<<<< HEAD
         <div className="text-center mb-5">
           <h2 className="section-title">Our Luxury Rooms</h2>
           <p className="section-subtitle">
@@ -74,6 +90,8 @@ export default function RoomsSection() {
           </p>
         </div>
 
+=======
+>>>>>>> 36737131500f0259807a8de4f5f258d39c61b061
         <div className="row g-4 justify-content-center">
           {rooms.map((room, index) => (
             <div

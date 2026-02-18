@@ -6,6 +6,7 @@ import "../../styles/ourHotelSection.css";
 
 import figure1 from "../../assets/figure1.jpg";
 import figure2 from "../../assets/figure2.jpg";
+<<<<<<< HEAD
 import g5 from "../../assets/g4.jpg";
 
 const COL1 = [
@@ -24,6 +25,26 @@ const COL3 = [
   "Airport pickup on request",
   "Guided local experiences",
   "Family-friendly stay options",
+=======
+import figure3 from "../../assets/figure3.jpg";
+
+const COL1 = [
+  "Donec malesuada lorem maximus mauris",
+  "Integer tempus ligula sem, id feugiat",
+  "Malesuada lorem maximus mauris sceler",
+];
+
+const COL2 = [
+  "Tempus ligula sem, id feugiat quam",
+  "Integer tempus ligula sem, id feugiat",
+  "Esuada lorem maximus mauris sceler",
+];
+
+const COL3 = [
+  "Tempus ligula sem, id feugiat quam",
+  "Integer tempus ligula sem, id feugiat",
+  "Esuada lorem maximus mauris sceler",
+>>>>>>> 36737131500f0259807a8de4f5f258d39c61b061
 ];
 
 function CheckItem({ text, delay = 0 }) {
@@ -103,7 +124,15 @@ export default function OurHotelSection() {
         {/* Images */}
         <div className="row gy-4 mt-4">
           <div className="col-12 col-md-4">
+<<<<<<< HEAD
             <ImgCard src={figure1} alt="Elite Resort experience" delay={150} />
+=======
+            <ImgCard
+              src={figure1}
+              alt="Elite Resort experience"
+              delay={150}
+            />
+>>>>>>> 36737131500f0259807a8de4f5f258d39c61b061
           </div>
 
           <div className="col-12 col-md-4">
@@ -111,7 +140,11 @@ export default function OurHotelSection() {
           </div>
 
           <div className="col-12 col-md-4">
+<<<<<<< HEAD
             <ImgCard src={g5} alt="Elite Resort bar" delay={350} />
+=======
+            <ImgCard src={figure3} alt="Elite Resort bar" delay={350} />
+>>>>>>> 36737131500f0259807a8de4f5f258d39c61b061
           </div>
         </div>
       </div>

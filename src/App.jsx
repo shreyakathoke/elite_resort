@@ -7,8 +7,11 @@ import AboutPage from "./pages/About/AboutPage";
 import ServicePage from "./pages/Service/ServicePage";
 import GalleryPage from "./pages/Gallery/GalleryPage";
 import AdminPage from "./pages/Admin/AdminPage";
+<<<<<<< HEAD
 import ScrollToTop from "./components/common/Scrollpage";
 import ProfilePage from "./pages/users/ProfilePage";
+=======
+>>>>>>> 36737131500f0259807a8de4f5f258d39c61b061
 
 
 import Login from "./pages/Auth/Login";
@@ -20,7 +23,10 @@ import AddRoom from "./pages/Admin/AddRoom";
 export default function App() {
   return (
     <>
+<<<<<<< HEAD
     <ScrollToTop/>
+=======
+>>>>>>> 36737131500f0259807a8de4f5f258d39c61b061
       <Header />
 
       <main>
@@ -35,10 +41,13 @@ export default function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/rooms" element={<AddRoom/>} />
+<<<<<<< HEAD
           
           <Route path="/profile" element={<ProfilePage />} />
 
 
+=======
+>>>>>>> 36737131500f0259807a8de4f5f258d39c61b061
         </Routes>
       </main>
 

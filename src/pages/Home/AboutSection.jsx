@@ -1,8 +1,14 @@
 import { useNavigate } from "react-router-dom";
 import "../../styles/aboutSection.css";
+<<<<<<< HEAD
 import img4 from "../../assets/image1.jpg";
 import img5 from "../../assets/image2.jpg";
 import img3 from "../../assets/g3.jpg";
+=======
+import img1 from "../../assets/image1.jpg";
+import img2 from "../../assets/image2.jpg";
+import img3 from "../../assets/image3.jpg";
+>>>>>>> 36737131500f0259807a8de4f5f258d39c61b061
 
 export default function AboutSection() {
   const navigate = useNavigate();
@@ -55,8 +61,13 @@ export default function AboutSection() {
           {/* RIGHT COLLAGE */}
           <div className="col-12 col-lg-6">
             <div className="about-collage">
+<<<<<<< HEAD
               <img className="img-main" src={img4} alt="" />
               <img className="img-top" src={img5} alt="" />
+=======
+              <img className="img-main" src={img1} alt="" />
+              <img className="img-top" src={img2} alt="" />
+>>>>>>> 36737131500f0259807a8de4f5f258d39c61b061
               <img className="img-bottom" src={img3} alt="" />
             </div>
           </div>
